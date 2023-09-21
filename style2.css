@@ -1,0 +1,41 @@
+h1 {
+    text-shadow: 2px 2px 4px tomato;
+}
+
+h1::first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+::selection {
+    background-color: tomato;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+/* 
+    default font size is 16px  
+    rem =  inherits the root (defult of the browser)
+    em = inherits the parent
+*/
+
+.parent {
+    font-size: 24px;
+}
+
+.first-child {
+    font-size: 2em;
+    /* 48px */
+}
+
+.second-child {
+    font-size: 2em;
+    /* 96px */
+}
+
+.third-child {
+    font-size: 2rem;
+    /* 192 */
+}

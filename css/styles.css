@@ -1,0 +1,116 @@
+:root {
+    --primary-text-color: #555555;
+    --primary-white-color: #fff;
+    --primary-orange-color: #ff6c00;
+    --primary-black-color: #303030;
+    --primary-gray-color: #9da4bd;
+    --toptext-gray-color: rgba(157, 164, 189, 0.6);
+    --primary-background-color: rgba(25, 28, 38, 0.2);
+    --secondary-background-color: #f7f7f7;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* General Styles */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.top-text {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.bottom-text {
+    color: var(--primary-text-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.section-title {
+    font-family: "Raleway", "sans-serif";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+/* End of General Styles */
+
+/* HEADER SECTION */
+.header {
+    background-color: var(--primary-background-color);
+}
+
+.header-link {
+    color: var(--primary-white-color);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.header-link:hover {
+    color: var(--primary-orange-color);
+}
+
+.header-address {
+    color: var(--primary-white-color);
+}
+
+.header-address-link {
+    color: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.header-button {
+    color: var(--primary-white-color);
+    background-color: transparent;
+    /* border: thickness pattern color*/
+    border: 1px solid var(--primary-orange-color);
+    border-radius: 25px;
+}
+/* END OF HEADER SECTION */
+
+/* HERO SECTION  */
+
+/* END OF HERO SECTION */
+
+/* ABOUT SECTION */
+
+/* END OF ABOUT SECTION */
+
+/* SERVICES AND PRICES SECTION */
+
+/* END OF SERVICES AND PRICES SECTION */
+
+/* WHY US SECTION / BENEFITS */
+
+/* END OF WHY US */
+
+/* BARBERS SECTION */
+
+/* END OF BARBERS SECTION */
+
+/* FOOTER */
+
+/* END OF FOOTER */
